@@ -1,0 +1,42 @@
+.showcase{
+    background-image: url(../images/showcase/1.JPG);
+    display: grid;
+    width: 100%;
+    height: 97vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-columns: 4% 16% 20% 20% 20% 16% 4%;
+    grid-template-rows: 45% 10% 30% 15%;
+}
+.button{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.left{
+    background-image: url(../images/showcase/left_arrow.png);
+}
+.right{
+    background-image: url(../images/showcase/right_arrow.png);
+}
+.photo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#photo1{
+    background-image: url(../images/showcase/1.JPG);
+}
+#photo2{
+    background-image: url(../images/showcase/2.JPG);
+}
+#photo3{
+    background-image: url(../images/showcase/3.JPG);
+}
+#photo4{
+    background-image: url(../images/showcase/4.JPG);
+}
+#photo5{
+    background-image: url(../images/showcase/5.JPG);
+}
