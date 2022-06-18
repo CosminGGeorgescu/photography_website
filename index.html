@@ -11,10 +11,17 @@
         </div>
         <div class="break"></div>
         <div class="front-menu">
-            <a class="intro" href="pages/Intro.html">Intro</a>
-            <a class="showcase" href="pages/Showcase.html">Showcase</a>
-            <a class="about-me" href="pages/Aboutme.html">About me</a>
+            <a class="intro button" href="pages/Intro.html">Intro</a>
+            <a class="showcase button" href="pages/Showcase.html">Showcase</a>
+            <a class="about-me button" href="pages/Aboutme.html">About me</a>
         </div>
         <div class="break"></div>
+        <form id="register-form"> 
+            <input id="email" type="text" placeholder="email" value=""/>
+            <input id="pw" type="password" placeholder="password" value=""/>
+            <input id="rgstr_btn" type="submit" value="Register" onClick="store()"/> 
+            <input type="reset" value="clear fields">
+        </form>
+        <script src="index.js"></script>
     </body>
 </html>
